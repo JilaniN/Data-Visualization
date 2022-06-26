@@ -275,5 +275,5 @@ fetchData().then(datapoints => {
 })
  console.log(apiLabelArray)
 }
-// Interval pour espacer la récupération des données actualisées de l'url
+// Set a greater interval between updates
 setInterval(updateChart, 3000)
